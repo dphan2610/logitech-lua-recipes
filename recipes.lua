@@ -4,13 +4,17 @@ function OnEvent(event, arg)
   
 end
 
-function LeftClick()
+function print(str)
+	OutputLogMessage(str)
+end
+
+function left_click()
 	PressMouseButton(1)
 	Sleep(100)
 	ReleaseMouseButton(1)
 end
 
-function RightClick()
+function right_click()
 	PressMouseButton(3)
 	Sleep(100)
 	ReleaseMouseButton(3)
