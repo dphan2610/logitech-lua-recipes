@@ -1,6 +1,6 @@
 function OnEvent(event, arg)
 	
-  right_click()
+	right_click()
   
 end
 
