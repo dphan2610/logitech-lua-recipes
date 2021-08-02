@@ -2,7 +2,6 @@ local mouse_button_8_current_state = "off"
 local mouse_button_8_next_state = {on = "off", off = "on"}
 
 function OnEvent(event, arg)
-  
 	ClearLog()
   
 	if (event == "MOUSE_BUTTON_RELEASED" and arg == 8) then
@@ -11,11 +10,10 @@ function OnEvent(event, arg)
 		if (mouse_button_8_current_state == "on") then
 			print("it's on!")
 		end
-    
-    if (mouse_button_8_current_state == "off") then
+		
+		if (mouse_button_8_current_state == "off") then
 			print("it's off!")
 		end
     
 	end
-	
 end
