@@ -17,3 +17,7 @@ function OnEvent(event, arg)
     
 	end
 end
+
+function print(str)
+	OutputLogMessage(str)
+end
